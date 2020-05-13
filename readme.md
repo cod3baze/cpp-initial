@@ -4,7 +4,8 @@
 
 - Overview
 
-  - As funções sempre devem retornar algum valor `return 0`
+  - As funções (que tiverem um tipo de retorno) sempre devem retornar algum valor. EX:
+    `int : return 0`
 
 - Objetivos
 
@@ -14,13 +15,16 @@
 - Code
 
   - utiliza o namespace **std: standard**: caminho para a biblioteca padrão.
-  - utitliza nesse namespace o metodo **cout: console_Out_Line**: para imprimir na tela.
+  - utitliza nesse namespace o objeto **cout: console_Output**: para imprimir na tela.
 
   ```cpp
     #include <iostream>
+    #include <stdlib.h>
 
     int main() {
       std::count << "hello, world";
+      system("pause");
+      return 0;
     }
 
     return 0;
